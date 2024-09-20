@@ -1,4 +1,3 @@
-Command executed successfully:
 const { GoatWrapper } = require("fca-liane-utils");
 const axios = require("axios");
 const baseApiUrl = async () => {
