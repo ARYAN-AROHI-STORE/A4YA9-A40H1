@@ -146,19 +146,19 @@
       "status": "on"
     },
     {
-      "cmd": "gcimg-v2_id_goat",
+      "cmd": "gcimg_id_goat",
       "author": "Dioto",
       "update": "09/21/2024",
       "status": "on"
     },
     {
-      "cmd": "info-v2_id_goat",
+      "cmd": "info_id_goat",
       "author": "ArYan",
       "update": "09/21/2024",
       "status": "on"
     },
     {
-      "cmd": "imagine-v2_id_goat",
+      "cmd": "imagine_id_goat",
       "author": "ArYan",
       "update": "09/21/2024",
       "status": "on"
