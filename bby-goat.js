@@ -1,7 +1,7 @@
 const axios = require("axios");
 const baseApiUrl = async () => {
   const base = await axios.get(
-    `https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json`,
+    `https://raw.githubusercontent.com/ARYAN-AROHI-STORE/A4YA9-A40H1/refs/heads/main/APIRUL.json`,
   );
   return base.data.api;
 };
@@ -34,7 +34,7 @@ module.exports.config = {
   aliases: ["bot"],
   version: "1.0.0",
   role: 0,
-  author: "dipto",
+  author: "Dipto|ArYAN",
   description: "better then all Sim simi with multiple conversation",
   guide: { en: "[message]" },
   category: "ChatBots",
@@ -73,7 +73,7 @@ module.exports.onStart = async function ({ api, args, event }) {
     const dipto = args.join(" ").toLowerCase();
     if (!args[0]) {
       api.sendMessage(
-        "𝗵𝗺 𝗯𝗮𝗯𝘆 𝗯𝗼𝗹𝗼🙂",
+        "𝗽𝗹𝗲𝗮𝗰𝗲 𝘁𝗿𝘆𝗽𝗲 𝗯𝗯𝘆 𝗵𝗶 🙂",
         event.threadID,
         event.messageID,
       );
